@@ -1,4 +1,9 @@
-name = input("What is your name? ")
-age = input("How old are you? ")
+import datetime
+now = datetime.datetime.now()
 
-print(name + " you are " + str(age) + " years old.")
+name = input("What is your name? ")
+age = int(input("How old are you? "))
+
+year = (now.year - age) + 100
+
+print(name + " you should turn 100 by the year " + str(year) + ".")
