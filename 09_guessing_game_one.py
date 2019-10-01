@@ -6,30 +6,21 @@ user input lessons from the very first exercise)
 
 import random
 
-chances = int(input("How many chances would you like? "))
+random_num = random.randint(1, 9)
+count = 1
 
 while True:
-    count = 0
+    guess = int(input("Guess a number: "))
 
-    cpu_list = ["Rock", "Paper", "Scissors"]
-    choice = input("Rock, Paper, or Scissors? ")
-    random_cpu = random.choice(cpu_list)
-    if choice == "Rock":
-        if random_cpu == "Rock":
-            print("Tie")
-            count = count + 1
-            print(count)
-            continue
-        elif random_cpu == "Paper":
-            print('Winner!')
-            count = count + 1
-            print(count)
-
-    if count == chances:
-        again = input("Try again? (y or n) ")
-        if again == "y":
-            continue
-        elif again == "n":
-            print("Thank you for playing!")
-            break
-    break
+    if guess == random_num:
+        print("The number was " + str(random_num) + ", you guessed " + str(guess) + " and won!")
+        print("This took you " + str(count) + " tries!")
+        break
+    elif guess < random_num:
+        count = count + 1
+        print("Higher!")
+        continue
+    elif guess > random_num:
+        count = count + 1
+        print("Lower!")
+        continue

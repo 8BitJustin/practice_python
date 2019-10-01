@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca3f5f54-3890-4d2e-af24-a762724572a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/08_rock_paper_scissors.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_rock_paper_scissors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_guessing_game_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/09_guessing_game_one.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,20 +75,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08_rock_paper_scissors.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="53" column="2" lean-forward="true" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+            <state relative-caret-position="399">
+              <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/09_guessing_game_one.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="34" column="9" selection-start-line="6" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -115,8 +115,8 @@
         <option value="$PROJECT_DIR$/05_list_overlap.py" />
         <option value="$PROJECT_DIR$/06_string_lists_palindrone.py" />
         <option value="$PROJECT_DIR$/07_list_comprehensions.py" />
-        <option value="$PROJECT_DIR$/09_guessing_game_one.py" />
         <option value="$PROJECT_DIR$/08_rock_paper_scissors.py" />
+        <option value="$PROJECT_DIR$/09_guessing_game_one.py" />
       </list>
     </option>
   </component>
@@ -366,17 +366,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09_guessing_game_one.py">
+    <entry file="file://$PROJECT_DIR$/08_rock_paper_scissors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="9" selection-start-line="6" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="399">
+          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08_rock_paper_scissors.py">
+    <entry file="file://$PROJECT_DIR$/09_guessing_game_one.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="53" column="2" lean-forward="true" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
