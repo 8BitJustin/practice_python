@@ -41,3 +41,36 @@ def compare(u1, u2):
         sys.exit()
 
 print(compare(user1_answer, user2_answer))
+
+
+# My code
+
+# import random
+#
+# chances = int(input("How many chances would you like? "))
+#
+# while True:
+#     count = 0
+#
+#     cpu_list = ["Rock", "Paper", "Scissors"]
+#     choice = input("Rock, Paper, or Scissors? ")
+#     random_cpu = random.choice(cpu_list)
+#     if choice == "Rock":
+#         if random_cpu == "Rock":
+#             print("Tie")
+#             count = count + 1
+#             print(count)
+#             continue
+#         elif random_cpu == "Paper":
+#             print('Winner!')
+#             count = count + 1
+#             print(count)
+#
+#     if count == chances:
+#         again = input("Try again? (y or n) ")
+#         if again == "y":
+#             continue
+#         elif again == "n":
+#             print("Thank you for playing!")
+#             break
+#     break
