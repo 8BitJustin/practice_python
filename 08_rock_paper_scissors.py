@@ -9,23 +9,35 @@ Rock beats scissors
 Scissors beats paper
 Paper beats rock
 """
-import random
 
-game = True
+import sys
 
-while game:
-    count = 0
-    chances = int(input("How many chances would you like? "))
-    cpu_list = ["Rock", "Paper", "Scissors"]
-    choice = input("Rock, Paper, or Scissors? ")
-    random_cpu = random.choice(cpu_list)
-    if choice == "Rock" and random_cpu == "Rock":
+user1 = input("What's your name? ")
+user2 = input("And your name? ")
+user1_answer = input("%s, do yo want to choose rock, paper or scissors? " % user1)
+user2_answer = input("%s, do you want to choose rock, paper or scissors? " % user2)
 
-    if count == chances:
-        again = input("Try again? (y or n) ")
-        if again == "y":
-            continue
-        elif again == "n":
-            print("Thank you for playing!")
-            break
-    break
+
+def compare(u1, u2):
+    if u1 == u2:
+        return "It's a tie!"
+    elif u1 == 'rock':
+        if u2 == 'scissors':
+            return "Rock wins!"
+        else:
+            return "Paper wins!"
+    elif u1 == 'scissors':
+        if u2 == 'paper':
+            return "Scissors win!"
+        else:
+            return "Rock wins!"
+    elif u1 == 'paper':
+        if u2 == 'rock':
+            return "Paper wins!"
+        else:
+            return "Scissors win!"
+    else:
+        return"Invalid input! You have not entered rock, paper or scissors, try again."
+        sys.exit()
+
+print(compare(user1_answer, user2_answer))
