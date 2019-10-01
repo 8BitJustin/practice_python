@@ -9,18 +9,23 @@ Rock beats scissors
 Scissors beats paper
 Paper beats rock
 """
+import random
 
 game = True
 
 while game:
-    player_input = int(input("One or two players: "))
-    if player_input == 1:
-        print("One player")
-        game = False
-    elif player_input == 2:
-        print("Two players")
-        game = False
-    else:
-        print("Please enter one or two players")
-        continue
+    count = 0
+    chances = int(input("How many chances would you like? "))
+    cpu_list = ["Rock", "Paper", "Scissors"]
+    choice = input("Rock, Paper, or Scissors? ")
+    random_cpu = random.choice(cpu_list)
+    if choice == "Rock" and random_cpu == "Rock":
 
+    if count == chances:
+        again = input("Try again? (y or n) ")
+        if again == "y":
+            continue
+        elif again == "n":
+            print("Thank you for playing!")
+            break
+    break
