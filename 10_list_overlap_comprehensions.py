@@ -17,3 +17,20 @@ discussed on the blog, so you can either choose to use the original directive an
 command in Python 3.3, or try to implement this on your own and use at least one list comprehension
 in the solution.
 """
+
+alpha = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+beta = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+c = [a for a in alpha for b in beta if a not in c c.append(a) ]
+
+for num in c:
+    if num not in d:
+        d.append(num)
+
+d.sort()
+
+print(c)
+print(d)
+
+b = [num for num in a if num % 2 == 0]
+
