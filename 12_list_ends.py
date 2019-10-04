@@ -6,7 +6,9 @@ function.
 import random
 
 # makes random list
-random_list = [random.randint(0,10) for i in range(5)]
+random_list = [random.randint(0,50) for i in range(5)]
+
+random_list.sort()
 
 
 def list_ends(list):
